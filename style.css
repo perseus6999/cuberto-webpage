@@ -1,0 +1,38 @@
+*{
+    padding : 0 ;
+    margin : 0 ;
+}
+html, body {
+    height: 100%; 
+    width : 100% ;
+}
+#main {
+    width : 100% ;
+    background-color: #fff;
+}
+#home {
+    width : 100% ;
+    min-height : 100vh ;
+}
+#nav {
+    display : flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding : 15px 30px ;
+}
+#nav img {
+    width : 100px ;
+}
+#nav a{
+    color : #000 ;
+    text-decoration: none;
+    font-size: 1vw;
+
+}
+
+#nav #right {
+    display : flex ;
+    gap : 20px ;
+    justify-content: space-between;
+}
+
