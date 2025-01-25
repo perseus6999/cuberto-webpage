@@ -1,6 +1,7 @@
 *{
     padding : 0 ;
     margin : 0 ;
+    font-family: "Roboto Flex";
 }
 html, body {
     height: 100%; 
@@ -26,8 +27,7 @@ html, body {
 #nav a{
     color : #000 ;
     text-decoration: none;
-    font-size: 1vw;
-
+    font-size: 1.2vw;
 }
 
 #nav #right {
@@ -36,3 +36,19 @@ html, body {
     justify-content: space-between;
 }
 
+#homemain {
+    padding : 30vh ;
+}
+.headings {
+    display: flex; 
+    gap : 40px ;
+}
+
+#homemain .headings h1 {
+    color : transparent ;
+    -webkit-text-stroke: 1px #000;
+    font-size : 6vw ;
+    font-weight: 700 ;
+    line-height : 1 ;
+    letter-spacing : -8px ;
+}
