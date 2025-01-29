@@ -1,7 +1,7 @@
 *{
     padding : 0 ;
     margin : 0 ;
-    font-family: "Roboto Flex";
+    font-family: "Poppins";
 }
 html, body {
     height: 100%; 
@@ -38,26 +38,74 @@ html, body {
 
 #home #homemain {
     width : 100% ;
-    padding : 25vh 18vw;
+    padding : 25vh 12vw;
 }
 
 #homemain h1 {
     font-weight: 400 ;
+    letter-spacing: -.1vw;
     font-size : 1.5vw ;
 }
 
 .headings {
     display: flex; 
-    gap : 40px ;
+    gap : 35px ;
 }
 #homemain .headings h1 {
 
-    font-size : 6.5vw ;
-    font : transparent ;
-    letter-spacing: -4px ;
-    font-weight: 1000 ;
-    line-height : 1 ;
     color : transparent ;
-    -webkit-text-stroke: 0.01px #000;
+    -webkit-text-stroke: 1px #000;
+    font-size : 6.5vw ;
+    letter-spacing: -5px ;
+    font-weight: 400 ;
+    line-height : 1 ;
 }
 
+#homelast p {
+    width : 50%;
+    font-size : 1.6vw ;
+    font-weight: 200;
+    letter-spacing: -1px;
+    padding : 12vh 12vw ;
+}
+#homelast p::selection{
+    color : #fff ;
+    background-color: #000;
+}
+#featured {
+    padding : 18vh 18vw;
+    font-size : 3.6vh;
+    line-height: 1;
+    font-weight: 400;
+}
+#featured h1:nth-child(2) {
+   color : transparent ;
+   -webkit-text-stroke: 1px #000;
+   font-weight: 100;
+}
+
+#fimages {
+    display: flex;
+    width : 100% ;
+    min-height : 100vh;
+    /* border : 2px solid red; */
+    gap : 5vw ;
+    margin-top : 5vw ;
+}
+#fleft {
+    width : 45% ;
+    min-height : inherit;
+    border : 2px solid green ;
+}
+#fright {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    width : 45% ;
+    min-height: inherit;
+}
+.images{
+    width : 90% ;
+    height : 90% ;
+    background-color: red;
+}
