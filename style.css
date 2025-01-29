@@ -78,7 +78,7 @@ html, body {
     line-height: 1;
     font-weight: 400;
 }
-#featured h1:nth-child(2) {
+.fheading > h1:nth-child(2) {
    color : transparent ;
    -webkit-text-stroke: 1px #000;
    font-weight: 100;
@@ -87,25 +87,80 @@ html, body {
 #fimages {
     display: flex;
     width : 100% ;
-    min-height : 100vh;
-    /* border : 2px solid red; */
+    height : 100vh;
     gap : 5vw ;
     margin-top : 5vw ;
 }
+
 #fleft {
+    overflow : scroll ;
     width : 45% ;
-    min-height : inherit;
-    border : 2px solid green ;
+    height : inherit;
+}
+.fleftelem {
+    display : flex; 
+    justify-content: center;
+    flex-direction : column ;
+    width : 100% ;
+    height : inherit ;
+}
+.fleftelem h5 {
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+.fleftelem h1 {
+ font-size : 2.3vw ;
+ line-height: 1.1;
+ font-weight : 300 ;
+ text-transform: capitalize;
+ margin : 1.5vw 0 ;
+}
+.fleftelem h6 {
+    opacity: .5;
 }
 #fright {
     display: flex; 
     align-items: center;
     justify-content: flex-end;
     width : 45% ;
-    min-height: inherit;
+    height: inherit;
 }
+
 .images{
     width : 90% ;
     height : 90% ;
     background-color: red;
+}
+
+#btndiv {
+    display : flex ;
+    justify-content: center;
+    align-items: center ;
+}
+
+#btndiv button {
+    padding : 1.1vw 2.1vw ;
+    border-radius: 100px ;
+    border: 1px solid #cfcfcf ;
+    background-color: #fff;
+    font-size : 1vw ;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+#dev {
+    width : 100% ;
+    padding : 8vw 10vw ;
+    line-height : 1;
+}
+#dev h1 {
+    width : 30%;
+    font-size : 2.8vw ;
+    font-weight: 400;
+}
+#dev p {
+    line-height: 1.5;
+    margin-top : 4vw;
+    width : 35% ;
+    font-size : 1.1vw ;
 }
