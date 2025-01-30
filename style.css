@@ -3,6 +3,11 @@
     margin : 0 ;
     font-family: "Poppins";
 }
+
+*::selection{
+        color : #fff ;
+        background-color: #000;
+    }
 html, body {
     height: 100%; 
     width : 100% ;
@@ -67,10 +72,6 @@ html, body {
     font-weight: 200;
     letter-spacing: -1px;
     padding : 12vh 12vw ;
-}
-#homelast p::selection{
-    color : #fff ;
-    background-color: #000;
 }
 #featured {
     padding : 18vh 18vw;
@@ -163,4 +164,11 @@ html, body {
     margin-top : 4vw;
     width : 35% ;
     font-size : 1.1vw ;
+}
+
+#slides {
+    padding : 2vw 5vw ;
+    display : flex ;
+    justify-content: space-between;
+    background-color: red;
 }
